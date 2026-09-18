@@ -19,6 +19,17 @@ TurtleBot3에 자율 탐색(Frontier), Nav2, YOLO 화재 감지, Arduino Nano �
 - `ArduiNode/`
   - Arduino 연동 과정에서 사용된 서비스 인터페이스 및 빌드 기록
 
+## 포함된 외부 프로젝트
+
+이 저장소에는 프로젝트 재현을 위해 다음 오픈 소스 프로젝트의 소스가 포함되어 있습니다. 저작권과 라이선스는 각 디렉터리의 `LICENSE` 파일을 따릅니다.
+
+- [frontier-exploration-ros2](https://github.com/mertgulerx/frontier-exploration-ros2) — 기준 커밋 `1992202`
+- [ROBOTIS TurtleBot3](https://github.com/ROBOTIS-GIT/turtlebot3) — 기준 커밋 `1f67e8d`
+- [ROBOTIS DynamixelSDK](https://github.com/ROBOTIS-GIT/DynamixelSDK) — 기준 커밋 `69b30fc`
+- [ROBOTIS turtlebot3_msgs](https://github.com/ROBOTIS-GIT/turtlebot3_msgs) — 기준 커밋 `9209e01`
+
+일부 설정 파일은 본 프로젝트의 로봇 구성에 맞게 수정되어 있습니다.
+
 ## 구동 전 확인 사항
 
 ### 실행 환경

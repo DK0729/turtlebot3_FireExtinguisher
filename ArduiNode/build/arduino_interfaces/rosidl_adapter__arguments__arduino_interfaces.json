@@ -1,6 +1,0 @@
-{
-  "package_name": "arduino_interfaces",
-  "non_idl_tuples": [
-    "/home/donggwan/ArduiNode/arduino_interfaces:srv/Extinguish.srv"
-  ]
-}

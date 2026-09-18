@@ -1,3 +1,0 @@
-[console_scripts]
-fire_detector = fire_detect.detector_node:main
-sub_test = fire_detect.sub_test:main

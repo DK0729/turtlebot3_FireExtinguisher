@@ -1,2 +1,0 @@
-Invoking command in '/home/donggwan/ros2_ws/turtlebot_/build/Arduino_Node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donggwan/ros2_ws/turtlebot_/arduino_node -DCMAKE_INSTALL_PREFIX=/home/donggwan/ros2_ws/turtlebot_/install/Arduino_Node
-Invoked command in '/home/donggwan/ros2_ws/turtlebot_/build/Arduino_Node' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donggwan/ros2_ws/turtlebot_/arduino_node -DCMAKE_INSTALL_PREFIX=/home/donggwan/ros2_ws/turtlebot_/install/Arduino_Node

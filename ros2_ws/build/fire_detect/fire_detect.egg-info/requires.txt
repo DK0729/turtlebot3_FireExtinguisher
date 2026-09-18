@@ -1,6 +1,0 @@
-sensor_msgs
-setuptools
-turtlebot_interfaces
-
-[test]
-pytest

@@ -1,1 +1,0 @@
-Invoking command in '/home/donggwan/ArduiNode/build/Arduino_Node': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donggwan/ArduiNode/arduino_node -DCMAKE_INSTALL_PREFIX=/home/donggwan/ArduiNode/install/Arduino_Node
