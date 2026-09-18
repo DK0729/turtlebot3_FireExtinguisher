@@ -1,0 +1,56 @@
+1.tb3 연결 및 카메라 작동 확인
+ssh tb3@<터틀봇 IP주소>
+
+# tb3 터미널
+export ROS_DOMAIN_ID=30
+
+sudo apt update
+sudo apt install ros-jazzy-v4l2-camera
+
+libcamerify ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[320,320]"
+-> 뻗지 않고 [INFO] [v4l2_camera_node]: Publishing image on topic /image_raw 같은 문구가 유지 되면서 켜져있으면 성공 (터미널 열어두기)
+
+# PC 터미널
+export ROS_DOMAIN_ID=30
+
+ros2 topic list
+->  출력된 목록 중 /image_raw가 있으면 통신 성공
+
+ros2 run rqt_image_view rqt_image_view
+- 잠시 기다리면 rqt_image_view라는 빈 플러그인 창 팝업 
+- 창 좌측 상단에 있는 파란색 새로고침 아이콘 옆의 메뉴창 클릭 후 목록에서 /image_raw를 선택 시 tb3 카메라가 보는 것이 PC 화면에 출력 
+-> 여기까지 성공 시 1단계 성공
+
+# 주의사항
+#용량 주의
+sudo apt install -y ros-jazzy-v4l2-camera -s
+(-s 옵션을 주면 실제로 설치하지 않고 '예상 소모 용량'을 보여줌)
+
+
+2단계
+# tb3 터미널
+libcamerify ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[320,320]"
+
+#PC 터미널1
+export ROS_DOMAIN_ID=30
+cd ~/ros2_ws
+colcon build --packages-select fire_detect
+source /opt/ros/jazzy/setup.bash
+
+ros2 run fire_detect fire_detector
+
+#PC 터미널2
+export ROS_DOMAIN_ID=30
+ros2 topic list
+-> /image_raw, /fire_detect_image 두개 다 리스트에 존재해야 함
+
+ros2 run rqt_image_view rqt_image_view
+-> 선택창에서 /fire_detect_image 변경
+
+
+
+
+
+YOLO 오탐 
+필터(체비쇼브, 버터워스)
+

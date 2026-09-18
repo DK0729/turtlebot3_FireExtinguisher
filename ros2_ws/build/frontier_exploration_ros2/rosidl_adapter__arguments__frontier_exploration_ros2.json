@@ -1,0 +1,6 @@
+{
+  "package_name": "frontier_exploration_ros2",
+  "non_idl_tuples": [
+    "/home/donggwan/ros2_ws/frontier-exploration-ros2:srv/ControlExploration.srv"
+  ]
+}

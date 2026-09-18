@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/fire_detect/fire_detect.egg-info
+writing ../../build/fire_detect/fire_detect.egg-info/PKG-INFO
+writing dependency_links to ../../build/fire_detect/fire_detect.egg-info/dependency_links.txt
+writing entry points to ../../build/fire_detect/fire_detect.egg-info/entry_points.txt
+writing requirements to ../../build/fire_detect/fire_detect.egg-info/requires.txt
+writing top-level names to ../../build/fire_detect/fire_detect.egg-info/top_level.txt
+writing manifest file '../../build/fire_detect/fire_detect.egg-info/SOURCES.txt'
+reading manifest file '../../build/fire_detect/fire_detect.egg-info/SOURCES.txt'
+writing manifest file '../../build/fire_detect/fire_detect.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/donggwan/ros2_ws/build/fire_detect/build
+creating /home/donggwan/ros2_ws/build/fire_detect/build/lib
+creating /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect
+copying fire_detect/detector_node.py -> /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect
+copying fire_detect/__init__.py -> /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect
+copying fire_detect/sub_test.py -> /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect
+running install
+running install_lib
+creating /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect
+copying /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect/detector_node.py -> /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect
+copying /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect/__init__.py -> /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect
+copying /home/donggwan/ros2_ws/build/fire_detect/build/lib/fire_detect/sub_test.py -> /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect
+byte-compiling /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect/detector_node.py to detector_node.cpython-312.pyc
+byte-compiling /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect/sub_test.py to sub_test.cpython-312.pyc
+running install_data
+creating /home/donggwan/ros2_ws/install/fire_detect/share/ament_index
+creating /home/donggwan/ros2_ws/install/fire_detect/share/ament_index/resource_index
+creating /home/donggwan/ros2_ws/install/fire_detect/share/ament_index/resource_index/packages
+copying resource/fire_detect -> /home/donggwan/ros2_ws/install/fire_detect/share/ament_index/resource_index/packages
+copying package.xml -> /home/donggwan/ros2_ws/install/fire_detect/share/fire_detect
+running install_egg_info
+Copying ../../build/fire_detect/fire_detect.egg-info to /home/donggwan/ros2_ws/install/fire_detect/lib/python3.12/site-packages/fire_detect-0.0.0-py3.12.egg-info
+running install_scripts
+Installing fire_detector script to /home/donggwan/ros2_ws/install/fire_detect/lib/fire_detect
+Installing sub_test script to /home/donggwan/ros2_ws/install/fire_detect/lib/fire_detect
+writing list of installed files to '/home/donggwan/ros2_ws/build/fire_detect/install.log'

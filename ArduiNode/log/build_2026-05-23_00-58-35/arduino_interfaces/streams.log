@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/donggwan/ArduiNode/build/arduino_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donggwan/turtlebot3_ws/install/turtlebot3_teleop:/home/donggwan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donggwan/ArduiNode/arduino_interfaces -DCMAKE_INSTALL_PREFIX=/home/donggwan/ArduiNode/install/arduino_interfaces
+[0.014s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.150s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.411s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.411s]   ament_package_xml() package name 'arduino_interfaces' in '/package.xml'
+[0.411s]   does not match current PROJECT_NAME 'turtlebot_interfaces'.  You must call
+[0.411s]   project() with the same package name before.
+[0.411s] Call Stack (most recent call first):
+[0.411s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[0.411s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.411s] 
+[0.411s] [0m
+[0.411s] -- Configuring incomplete, errors occurred!
+[0.417s] Invoked command in '/home/donggwan/ArduiNode/build/arduino_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donggwan/turtlebot3_ws/install/turtlebot3_teleop:/home/donggwan/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donggwan/ArduiNode/arduino_interfaces -DCMAKE_INSTALL_PREFIX=/home/donggwan/ArduiNode/install/arduino_interfaces

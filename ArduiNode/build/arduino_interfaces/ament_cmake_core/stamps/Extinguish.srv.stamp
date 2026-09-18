@@ -1,0 +1,5 @@
+# Request (PC -> Arduino)
+float32 y_val 
+---
+# Response (Arduino -> PC)
+int32 success

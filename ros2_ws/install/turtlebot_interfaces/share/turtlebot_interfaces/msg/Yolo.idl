@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlebot_interfaces/msg/Yolo.msg
+// generated code does not contain a copyright notice
+
+
+module turtlebot_interfaces {
+  module msg {
+    struct Yolo {
+      double x;
+
+      double y;
+    };
+  };
+};

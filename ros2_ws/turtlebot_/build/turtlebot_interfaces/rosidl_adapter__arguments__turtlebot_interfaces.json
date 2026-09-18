@@ -1,0 +1,7 @@
+{
+  "package_name": "turtlebot_interfaces",
+  "non_idl_tuples": [
+    "/home/donggwan/ros2_ws/turtlebot_/turtlebot_interfaces:srv/Extinguish.srv",
+    "/home/donggwan/ros2_ws/turtlebot_/turtlebot_interfaces:msg/Yolo.msg"
+  ]
+}
