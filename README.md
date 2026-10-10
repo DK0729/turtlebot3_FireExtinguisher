@@ -7,7 +7,7 @@ TurtleBot3에 자율 탐색(Frontier), Nav2, YOLO 화재 감지, Arduino Nano �
 ## 프로젝트 구성
 
 - `ros2_ws/`
-  - YOLO 기반 화재 감지 노드
+  - YOLOv8 모델 기반 화재 감지 노드
   - Frontier 자율 탐색 패키지
   - 전체 탐색·이동·진압 과정을 관리하는 제어 노드
   - ROS 2 사용자 정의 메시지 및 서비스
